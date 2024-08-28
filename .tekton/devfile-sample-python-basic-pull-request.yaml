@@ -160,11 +160,11 @@ spec:
       taskRef:
         params:
           - name: url
-            value: https://github.com/rhoai-rhtap/fbc-utils.git
+            value: https://github.com/tisutisu/integration-tests.git
           - name: revision
             value: main
           - name: pathInRepo
-            value: tekton/my-custom-task.yaml
+            value: task/sample-task.yaml
         resolver: git
       runAfter:
       - init
