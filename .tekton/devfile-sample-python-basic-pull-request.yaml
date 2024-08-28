@@ -165,7 +165,7 @@ spec:
             value: main
           - name: pathInRepo
             value: tekton/my-custom-task.yaml
-        resolver: "git"
+        resolver: git
       runAfter:
       - init
     - name: clone-repository
